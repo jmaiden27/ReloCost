@@ -1,5 +1,7 @@
-﻿import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef } from "react";
+import "./App.css";
 
+console.log("[v0] App.jsx module loaded");
 
 const STATES = {
   AL: { name: "Alabama", tax: 0.05, propRate: 0.004, ins: 1200 },
