@@ -1,4 +1,5 @@
-﻿import { useState, useCallback, useRef } from "react";
+﻿import { Analytics } from "@vercel/analytics/react";
+import { useState, useCallback, useRef } from "react";
 
 
 const STATES = {
@@ -581,6 +582,7 @@ export default function App() {
 
   return (
     <>
+    <Analytics |>
       
       <div
         style={{
